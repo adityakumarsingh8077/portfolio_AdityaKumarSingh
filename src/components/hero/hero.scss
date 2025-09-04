@@ -4,9 +4,10 @@
         overflow: hidden;
         position: relative;
 
+
         .wrapper{
             width:1366px;
-            // max-width:1366px;
+            max-width:1366px;
             height: 100%;
             margin: auto;
          
@@ -36,7 +37,8 @@
                 // flex-direction: row;
                 // align-items: center;
                 // justify-content: center;
-                // gap: 10px;
+                gap: 10px;
+              
                 
 
                 
@@ -51,26 +53,31 @@
                 font-weight: 300;
                 width: auto;
                 position: relative;
+                margin-left: 0;
              
             }
             }
             img {
-                width: 50px;          
-            }
-
-        
-       
-
-    }}
+                width: 50px; 
+                left: 20px;         
+            }       
+       }
+    }
     .imageContainer{
         height: 100% ;
-        // width: 100%;
-        //  width:calc(100vw - 1366px);
         position: absolute;
         top: 0;
         right: 0;
 
         }
-
+    .slidingTextContainer{
+        position: absolute;
+        font-size: 50vh;
+        bottom:-110px;
+        white-space: nowrap;
+        color: #ffffff09; 
+        width:60%;
+        font-weight: bold;
+    }
    
 }

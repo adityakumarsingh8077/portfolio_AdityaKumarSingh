@@ -1,5 +1,7 @@
 .navbar {
   height: 100px;
+  position: relative;
+  z-index: 0999;
 
   .wrapper {
     max-width: 1366px;
@@ -12,6 +14,7 @@
 
     span {
       font-weight: bold;
+      margin-left: 2%;
     }
 
     .social {
