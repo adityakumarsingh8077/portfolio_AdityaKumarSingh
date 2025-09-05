@@ -47,9 +47,8 @@
             h1 {
                 font-size: 96px;
                 font-weight: 100;
-                // color: white;
-                // text-transform: uppercase;
-                // letter-spacing: 5px;
+                
+              
             }
             button{
                 width: 300px;
@@ -59,6 +58,7 @@
                 font-size: 24px;
                 cursor: pointer;
                 border: none;
+                position: relative;
                 font-weight: 600;
                 color: white;
                 transition: all 0.3s ease;
@@ -74,6 +74,58 @@
 
     .listContainer {
         flex: 2;
+        display: flex;
+        max-width: 1366px;
+        margin: auto;
+
+    
+    .box{
+        padding: 50px;
+        border: 0.5px solid gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      
+
+
+        button{
+            padding: 10px;
+            margin-left: -24px;            
+            background-color: orange;
+            border: none;
+            width:254.5px;     
+            cursor: pointer;
+            position: relative;            
+            font-weight: 600;
+            border-radius: 0px;
+            color: white;
+            transition: all 0.3s ease;
+            &:hover{
+                background-color: darkorange;
+                border: 1px solid rgb(22, 21, 21);
+            }
+
+
+        }
 
     }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
