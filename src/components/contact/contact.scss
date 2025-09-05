@@ -23,6 +23,17 @@
     }
     .formContainer{
         flex: 1;
+        position: relative;
+
+        .phoneSvg{
+            padding-left: 150px;
+            position: absolute;
+            margin: auto   ;
+            stroke: orange;
+            z-index: -1;
+
+           
+        }
         form{
         display: flex;
         flex-direction: column;
