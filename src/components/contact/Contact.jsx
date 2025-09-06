@@ -59,7 +59,7 @@ const Contact = () => {
       </motion.div>
       <div className="formContainer">
         <motion.div className="phoneSvg" initial={{ opacity: 1 }} whileInView={{ opacity: 0 }} transition={{ delay:3,duration: 1}}>
-          <svg
+          <svg className="contact-svg"
             fill="#000000"
             width="450px"
             height="450px"

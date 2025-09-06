@@ -18,7 +18,7 @@ const Navbar = () => {
             // ease: [0, 0.71, 0.2, 1.01]
           }}
         >
-          Aditya Birla Group
+          Aditya Kumar Singh
         </motion.span>
         <div className="social">
           <a href="#">
