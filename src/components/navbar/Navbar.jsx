@@ -21,17 +21,17 @@ const Navbar = () => {
           Aditya Kumar Singh
         </motion.span>
         <div className="social">
-          <a href="#">
-            <img src="/facebook.png" alt="" />
+          <a href="https://www.linkedin.com/in/aditya-kumar-singh-ab139a242/">
+            <img src="/linkedin.png" alt="" />
           </a>
-          <a href="#">
+          <a href="https://leetcode.com/u/singhaditya8077/">
+            <img src="/leetcodeee.png" alt="" />
+          </a>
+          <a href="https://www.instagram.com/singhaditya8077/">
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="#">
-            <img src="/youtube.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="/dribbble.png" alt="" />
+          <a href="https://x.com/singhaditya8077">
+            <img src="/twitterrr.png" alt="" />
           </a>
         </div>
       </div>
