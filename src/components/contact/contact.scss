@@ -12,6 +12,9 @@
     flex-direction: column;
     padding: 10px;
     width: 100%;
+    gap: 1px;
+   
+    
   }
 
   .textContainer {
@@ -41,7 +44,7 @@
   .formContainer {
     flex: 1;
     position: relative;
-
+  
     @include mobile {
       padding: 50px;
       width: 100%;
@@ -76,6 +79,10 @@
       display: flex;
       flex-direction: column;
       gap: 25px;
+      @include mobile{
+         margin-bottom: 20px;
+      }
+
       input,
       textarea {
         padding: 20px;
@@ -105,6 +112,7 @@
 
         @include mobile {
           padding: 10px;
+         
         }
       }
     }
