@@ -27,7 +27,7 @@ section {
 }
 
 @mixin mobile{
-     @media (max-width: 447px){
+     @media (max-width: 1200px){
         @content;
      }
 }
