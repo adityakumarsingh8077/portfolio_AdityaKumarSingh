@@ -1,3 +1,4 @@
+@import "../../app.scss";
 .hero{
         height:calc(100vh - 100px);
         background: linear-gradient(180deg,#0c0c1d,#111132);
@@ -21,16 +22,36 @@
                 justify-content: center;
                 gap: 40px;
 
+                @include mobile
+                {
+                    height: 50vh;
+                    width: 100vw;
+                    gap: 20px;
+                    // align-items: center;
+                    // text-align: center;
+
+                }
+
             h2 {
                 font-size: 30px;
                 color: rebeccapurple;
                 letter-spacing: 10px;
+
+                @include mobile{                    
+                        font-size: 20px;
+                        letter-spacing: 5px;     
+                        text-align: center;              
+                }
             }
 
             h1 {
                 font-size: 88px;
+                @include mobile{                    
+                        font-size: 36px;
+                        text-align: center;
+                    
+                }
             }
-
 
             .buttons {
                 // display: flex;
@@ -38,7 +59,14 @@
                 // align-items: center;
                 // justify-content: center;
                 gap: 10px;
-              
+                @include mobile{
+                    display: flex;
+                    flex-direction: row;
+                   
+
+                    justify-content: center;
+                    
+                }
                 
 
                 
@@ -54,12 +82,33 @@
                 width: auto;
                 position: relative;
                 margin-left: 0;
+
+                @include mobile{
+                    padding: 10px;
+                    font-size: 12px;
+                //   margin-left:-10px ;
+                  left: 10px;
+                    
+                    
+                }
              
             }
             }
             img {
                 width: 50px; 
-                left: 20px;         
+                left: 20px; 
+                
+                @include mobile{
+                    width: 40px; 
+                    // padding: 10%;
+                    margin-bottom: 50px;
+                    margin-top: 20px;
+                    margin-left: 45%;
+
+                    
+                   
+                    
+                }
             }       
        }
     }
@@ -68,6 +117,18 @@
         position: absolute;
         top: 0;
         right: 0;
+
+        @include mobile{
+            height: 50%;
+            width: 100%;
+            top: unset;
+            bottom: 0;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
 
         }
     .slidingTextContainer{
@@ -78,6 +139,13 @@
         color: #ffffff09; 
         width:60%;
         font-weight: bold;
+        @include mobile{
+            font-size: 150px;
+            margin-bottom: 70px;
+            width: 100%;
+            text-align: center; 
+           
+        }
     }
    
 }
