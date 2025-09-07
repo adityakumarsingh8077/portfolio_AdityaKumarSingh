@@ -6,11 +6,13 @@ import Services from "./components/services/Services.jsx";
 import Portfolio from "./components/portfolio/Portfolio.jsx";
 import Contact from "./components/contact/Contact.jsx";
 // import Sidebar from "./components/sidebar/Sidebar.jsx";
+// import About from "./components/about/About.jsx";
 const App = () => {
   return <div>
     <section id="Homepage">
       <Navbar/>  
       <Hero/>
+      {/* <About/>     */}
     </section>
     <section id="Services"><Parallax type="services"/></section>
     <section><Services/></section>
@@ -18,12 +20,6 @@ const App = () => {
     <Portfolio/>
     <section id="Contact"><Contact/></section>
  
-  
-
-
-
-
-    
       </div>;
 };
 

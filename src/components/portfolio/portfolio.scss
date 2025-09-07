@@ -109,6 +109,12 @@
             border-radius: 5px;
             cursor: pointer;
             position: relative;
+            
+            
+            @include mobile{
+                // margin: auto;
+                // padding: auto;
+            }
         }
         
        }

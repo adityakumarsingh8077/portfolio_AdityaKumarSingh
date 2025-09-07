@@ -55,25 +55,27 @@
    }
 
    /* Then, use a media query to change the size for a smaller screen */
-   @media screen and (max-width: 768px) {
+   @media screen and (max-width: 900px) {
        .contact-svg {
-           width: 300px;
-           height: 200px;
+           width: 50vw;
+           
+           height: 40vh;
+           margin: auto;
+           padding: auto;
+          //  justify-content: center;
        }
    }
     .phoneSvg {
-      padding-left: 150px;
+      padding-left: 40px;
       position: absolute;
       margin: auto;
       stroke: orange;
       z-index: -1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
 
-      @include mobile {
-        // margin-left: -20px;
-        padding-left: 0;
-        margin-right: 40px;
-        width: 80px;
-      }
     }
     form {
       display: flex;
